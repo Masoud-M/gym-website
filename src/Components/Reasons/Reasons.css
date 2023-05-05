@@ -90,3 +90,29 @@
 .partners > img {
   width: 2.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .Reasons {
+    flex-direction: column;
+  }
+  .left-reasons {
+    grid-auto-rows: auto;
+    overflow: hidden;
+  }
+  .left-reasons > :nth-child(1) {
+    width: 7rem;
+    height: 17rem;
+  }
+
+  .left-reasons > :nth-child(2) {
+    width: 15rem;
+    height: 10rem;
+  }
+  .left-reasons > :nth-child(3) {
+    width: 7rem;
+  }
+  .left-reasons > :nth-child(4) {
+    width: 7rem;
+    height: 6rem;
+  }
+}
