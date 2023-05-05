@@ -9,6 +9,7 @@ import Calories from "../../assets/Calories.png";
 const Hero = () => {
   return (
     <div className="hero">
+      <div className="blur hero-blur"></div>
       {/* left side of hero */}
       <div className="left-h">
         <Header />
