@@ -1,10 +1,10 @@
 import React from "react";
 import "./Hero.css";
 import Header from "../Header/Header";
-import hero_image from "../../assets/hero_image.png";
-import hero_image_back from "../../assets/hero_image_back.png";
-import Heart from "../../assets/Heart.png";
-import Calories from "../../assets/Calories.png";
+import hero_image from "../../../public/assets/hero_image.png";
+import hero_image_back from "../../../public/assets/hero_image_back.png";
+import Heart from "../../../public/assets/Heart.png";
+import Calories from "../../../public/assets/Calories.png";
 // frame motion npm is used for making smooth moving animation
 import { motion } from "framer-motion";
 // Number Counter npm ised for making number counting animation in hero section

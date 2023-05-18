@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
-import Logo from "../../assets/logo.png";
-import Bars from "../../assets/bars.png";
+import Logo from "../../../public/assets/logo.png";
+import Bars from "../../../public/assets/bars.png";
 // the react scroll library allows us to use the Link object to link to diffrent section and jump to them with thier id
 import { Link } from "react-scroll";
 const Header = () => {

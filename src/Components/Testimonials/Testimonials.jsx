@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Testimonials.css";
 import { testimonialsData } from "../../data/testimonialsData";
-import leftArrow from "../../assets/leftArrow.png";
-import rightArrow from "../../assets/rightArrow.png";
+import leftArrow from "../../../public/assets/leftArrow.png";
+import rightArrow from "../../../public/assets/rightArrow.png";
 import { motion } from "framer-motion";
 const Testimonials = () => {
   const transition = { type: "spring", duration: 3 };
